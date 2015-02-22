@@ -1,0 +1,11 @@
+matplotlib==1.4.2
+numpy==1.9.1
+pandas==0.15.2
+pyparsing==2.0.3
+python-dateutil==2.4.0
+pytz==2014.10
+Quandl==2.8.5
+scikit-learn==0.15.2
+scipy==0.15.1
+six==1.9.0
+virtualenv==12.0.7
