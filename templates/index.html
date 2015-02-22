@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://usman.it/themes/charisma/chart.html -->
+<html lang="en">
+<head>
+	<title>practical machine learning</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="practical machine learning">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<link href="http://usman.it/themes/charisma/css/animate.min.css" rel="stylesheet">
+
+	<script src="js/jquery-1.9.0.min.js"></script>
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="http://usman.it/themes/charisma/img/favicon.ico">
+</head>
+<body>
+	<header class="well">
+		<div class="container">
+			<h1>Stock trend prediction</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<label>Please select a stock you want to predict</label>
+					<select class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+
+	</header>
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-12">				
+				<div class="alert alert-success" role="alert">
+					XXX stock will rise/fall on date(tomorrow)
+				</div>
+			</div>
+		</div>
+
+		<!-- diagram content -->
+		<div class="row">
+			<div class="col-md-12">
+				<div id="sincos" class="center" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" width="2012" height="600" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1006px; height: 300px;"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 25px; text-align: center;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 97px; text-align: center;">1</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 169px; text-align: center;">2</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 241px; text-align: center;">3</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 312px; text-align: center;">4</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 384px; text-align: center;">5</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 456px; text-align: center;">6</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 528px; text-align: center;">7</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 600px; text-align: center;">8</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 672px; text-align: center;">9</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 740px; text-align: center;">10</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 812px; text-align: center;">11</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 884px; text-align: center;">12</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 67px; top: 281px; left: 956px; text-align: center;">13</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 245px; left: 2px; text-align: right;">-1.0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 189px; left: 2px; text-align: right;">-0.5</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 134px; left: 7px; text-align: right;">0.0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 78px; left: 7px; text-align: right;">0.5</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 22px; left: 7px; text-align: right;">1.0</div></div></div><canvas class="flot-overlay" width="2012" height="600" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1006px; height: 300px;"></canvas><div class="legend"><div style="position: absolute; width: 91px; height: 70px; top: 13px; right: 13px; opacity: 0.85; background-color: rgb(255, 255, 255);"> </div><table style="position:absolute;top:13px;right:13px;;font-size:smaller;color:#545454"><tbody><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(83,159,46);overflow:hidden"></div></div></td><td class="legendLabel">sin(x)/x</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(60,103,165);overflow:hidden"></div></div></td><td class="legendLabel">cos(x)</td></tr></tbody></table></div></div>
+				<p id="hoverdata">Mouse position at (<span id="x">0.49</span>, <span id="y">2.10</span>). <span id="clickdata"></span></p>
+			</div>
+		</div>
+		<hr>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-center">@Copyright Univeristy of Helsinki, Practical Machine Learning Project</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/jquery.flot.js"></script>
+	<script src="js/init-chart.js"></script>
+</body>
+</html>
